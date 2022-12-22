@@ -9,20 +9,43 @@
     <meta name="description" content="..." />
     <title>Twitter Profile</title>
     <style>
+      .container {
+        text-align: center;
+      }
+      .center {
+        /* display: block; */
+        /* width: 50%; */
+        margin-left: auto;
+        margin-right: auto;
+      }
       img {
-        width: 100px;
+        width: 50px;
         border-radius: 50px;
-        float: left;
-        margin-right: 10px;
+        vertical-align: middle;
       }
       .username {
         font-weight: bold;
       }
+      em {
+        color: red;
+        font-style: normal;
+      }
     </style>
   </head>
   <body>
-    <img src="images/image2.jpg" />
-    <div class="username">@etipriya</div>
-    <div>I love to teach you HTML</div>
+    <div class="container">
+      <div class="center"><img src="images/image2.jpg" /></div>
+      <div class="content">
+        <div class="username">@etipriya</div>
+        <div>I love to teach you <em>HTML</em>!</div>
+        <!-- <div>I love to teach you &lt; HTML &gt;! &copy;</div> -->
+        <!-- <div>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias,
+          aliquid, ipsum perferendis odio, vitae delectus nostrum fugiat&nbsp;
+          expedita optio accusamus velit voluptates blanditiis quisquam magnam.
+          Quod dolorum ad inventore quis.
+        </div> -->
+      </div>
+    </div>
   </body>
 </html>
