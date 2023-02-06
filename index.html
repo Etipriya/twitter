@@ -18,6 +18,11 @@
         margin-left: auto;
         margin-right: auto;
       }
+      .navbar {
+        word-spacing: 3px;
+        padding: 10px;
+        margin: 5px;
+      }
       img {
         width: 50px;
         border-radius: 50px;
@@ -35,17 +40,38 @@
         height: 200px;
         object-fit: cover;
       } */
+      .footer {
+        padding: 5px;
+        margin-top: 10px;
+      }
     </style>
   </head>
   <body>
-    <a href="company/about.html"
-      >About Me
-      <!-- <img src="images/image2.jpg" alt="" /> -->
-    </a>
-    <a href="images/image2.jpg" download>My Photo</a>
-    <a href="#section-CSS">CSS</a>
-    <a href="https://google.com" target="_blank">Google</a>
-    <a href="eti_pm@yahoo.co.in">Email Me</a>
+    <div class="navbar">
+      <a href="company/about.html"
+        >About Me
+        <!-- <img src="images/image2.jpg" alt="" /> -->
+      </a>
+      <a href="images/image2.jpg" download>My Photo</a>
+      <a href="#section-CSS">CSS</a>
+      <a href="https://google.com" target="_blank">Google</a>
+      <a href="eti_pm@yahoo.co.in">Email Me</a>
+    </div>
+
+    <div class="container">
+      <div class="center"><img src="images/image2.jpg" /></div>
+      <div class="content">
+        <div class="username">@etipriya</div>
+        <div>I love to teach you <em>HTML</em>!</div>
+        <!-- <div>I love to teach you &lt; HTML &gt;! &copy;</div> -->
+        <div>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias,
+          aliquid, ipsum perferendis odio, vitae delectus nostrum fugiat&nbsp;
+          expedita optio accusamus velit voluptates blanditiis quisquam magnam.
+          Quod dolorum ad inventore quis.
+        </div>
+      </div>
+    </div>
 
     <h2>HTML</h2>
     <div>
@@ -91,23 +117,9 @@
       blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
     </div>
 
-    <div class="container">
-      <div class="center"><img src="images/image2.jpg" /></div>
-      <div class="content">
-        <div class="username">@etipriya</div>
-        <div>I love to teach you <em>HTML</em>!</div>
-        <!-- <div>I love to teach you &lt; HTML &gt;! &copy;</div> -->
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias,
-          aliquid, ipsum perferendis odio, vitae delectus nostrum fugiat&nbsp;
-          expedita optio accusamus velit voluptates blanditiis quisquam magnam.
-          Quod dolorum ad inventore quis.
-        </div>
-      </div>
+    <div class="footer">
+      <a href="#">Jump to top</a>
     </div>
-
-    <a href="#">Jump to top</a>
-
     <!-- <img src="images/nature.jpg" alt="Nature is beautiful" /> -->
   </body>
 </html>
